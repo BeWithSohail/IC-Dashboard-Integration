@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title> IC </title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="" content="">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+      <link rel="stylesheet" href="css/fontawesome.min.css">
+      <link rel="stylesheet" href="css/brands.css">
+      <link rel="stylesheet" href="css/regular.css">
+      <link rel="stylesheet" href="css/solid.css">
+      <link rel="stylesheet" href="css/svg-with-js.css">
+      <link rel="stylesheet" href="css/sidemenu.css">
+      <link rel="stylesheet" href="css/style.css">
+   <body>
+      <!-- Sidebar screen design var1 -->
+      <!--
+         <div class="sidebar">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+          
+          <div class="content">
+            <h2>Responsive Sidebar Example</h2>
+            <p>This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.</p>
+            <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
+            <h3>Resize the browser window to see the effect.</h3>
+          </div>
+         -->
+      <!-- end -->
+      <!-- Sidebar screen design var2 -->
+      <div class="d-flex" id="wrapper">
+         <!-- Sidebar-->
+         <div class="sidemenu-bar-cmn">
+            <div class="sidebar-aprent" id="sidebar-wrapper">
+               <div class="sidebar-heading sidebar-heading-logo">
+                  <a href="index.html">  
+                  <img src="img/Logo.svg" alt="">
+                  </a>
+                  <div class="close-menu-pnl-mobile-view"> 
+                     <span id="close-menu"> 
+                     <i class="fas fa-times"></i>
+                     </span>
+                  </div>
+               </div>
+               <div class="list-group list-group-flush sidebar-menu-listing">
+                  <a class="list-group-item list-group-item-action list-group-item-light p-3  background-svg-home" href="index.html">
+                     <span class="svg-icon-menu">
+                        <!-- <img src="img/home white.svg" alt=""> -->
+                        <!-- <i class="fas fa-home"></i> -->
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M9 22V12H15V22" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                     </span>
+                     Home
+                  </a>
+                  <a class="list-group-item list-group-item-action list-group-item-light p-3 background-svg-userprofile" href="user-profile.html">
+                     <span class="svg-icon-menu">
+                        <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M20.9336 21.2246V19.2246C20.9336 18.1637 20.5122 17.1463 19.762 16.3962C19.0119 15.646 17.9945 15.2246 16.9336 15.2246H8.93359C7.87273 15.2246 6.85531 15.646 6.10517 16.3962C5.35502 17.1463 4.93359 18.1637 4.93359 19.2246V21.2246" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M12.9336 11.2246C15.1427 11.2246 16.9336 9.43375 16.9336 7.22461C16.9336 5.01547 15.1427 3.22461 12.9336 3.22461C10.7245 3.22461 8.93359 5.01547 8.93359 7.22461C8.93359 9.43375 10.7245 11.2246 12.9336 11.2246Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <!-- <i class="far fa-user"></i> -->
+                     </span>
+                     User Profile
+                  </a>
+                  <a class="list-group-item list-group-item-action list-group-item-light p-3 background-svg-certification" href="certifications.html">
+                     <span class="svg-icon-menu">
+                        <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0)">
+                              <path d="M12.042 15.6995C15.908 15.6995 19.042 12.5655 19.042 8.69946C19.042 4.83347 15.908 1.69946 12.042 1.69946C8.176 1.69946 5.04199 4.83347 5.04199 8.69946C5.04199 12.5655 8.176 15.6995 12.042 15.6995Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8.25199 14.5893L7.04199 23.6993L12.042 20.6993L17.042 23.6993L15.832 14.5793" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           </g>
+                           <defs>
+                              <clipPath id="clip0">
+                                 <rect width="24" height="24" fill="white" transform="translate(0.0419922 0.699463)"/>
+                              </clipPath>
+                           </defs>
+                        </svg>
+                        <!-- <i class="fas fa-award"></i> -->
+                     </span>
+                     Certifications
+                  </a>
+                  <a class="list-group-item list-group-item-action list-group-item-light p-3 background-svg-termsofuse active-nav" href="termsofuse.html">
+                     <span class="svg-icon-menu">
+                        <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M2.93359 3.47876H8.93359C9.99446 3.47876 11.0119 3.90019 11.762 4.65033C12.5122 5.40048 12.9336 6.41789 12.9336 7.47876V21.4788C12.9336 20.6831 12.6175 19.92 12.0549 19.3574C11.4923 18.7948 10.7292 18.4788 9.93359 18.4788H2.93359V3.47876Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M22.9336 3.47876H16.9336C15.8727 3.47876 14.8553 3.90019 14.1052 4.65033C13.355 5.40048 12.9336 6.41789 12.9336 7.47876V21.4788C12.9336 20.6831 13.2497 19.92 13.8123 19.3574C14.3749 18.7948 15.1379 18.4788 15.9336 18.4788H22.9336V3.47876Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <!-- <i class="fas fa-book-open"></i> -->
+                     </span>
+                     Terms of Use
+                  </a>
+                  <a class="list-group-item list-group-item-action list-group-item-light p-3 background-svg-privacypolicy" href="privacy-policy.html">
+                     <span class="svg-icon-menu">
+                        <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M12.9336 22.9536C12.9336 22.9536 20.9336 18.9536 20.9336 12.9536V5.95361L12.9336 2.95361L4.93359 5.95361V12.9536C4.93359 18.9536 12.9336 22.9536 12.9336 22.9536Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <!-- <i class="fas fa-shield-alt"></i> -->
+                     </span>
+                     Privacy Policy
+                  </a>
+                  <a class="list-group-item list-group-item-action list-group-item-light p-3 background-svg-support" href="support.html">
+                     <span class="svg-icon-menu">
+                        <!-- <i class="fas fa-headphones"></i> -->
+                        <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M3.98633 18.4287V12.4287C3.98633 10.0418 4.93454 7.75258 6.62237 6.06475C8.31019 4.37692 10.5994 3.42871 12.9863 3.42871C15.3733 3.42871 17.6625 4.37692 19.3503 6.06475C21.0381 7.75258 21.9863 10.0418 21.9863 12.4287V18.4287" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M21.9863 19.4287C21.9863 19.9591 21.7756 20.4679 21.4005 20.8429C21.0255 21.218 20.5168 21.4287 19.9863 21.4287H18.9863C18.4559 21.4287 17.9472 21.218 17.5721 20.8429C17.197 20.4679 16.9863 19.9591 16.9863 19.4287V16.4287C16.9863 15.8983 17.197 15.3896 17.5721 15.0145C17.9472 14.6394 18.4559 14.4287 18.9863 14.4287H21.9863V19.4287ZM3.98633 19.4287C3.98633 19.9591 4.19704 20.4679 4.57211 20.8429C4.94719 21.218 5.4559 21.4287 5.98633 21.4287H6.98633C7.51676 21.4287 8.02547 21.218 8.40054 20.8429C8.77561 20.4679 8.98633 19.9591 8.98633 19.4287V16.4287C8.98633 15.8983 8.77561 15.3896 8.40054 15.0145C8.02547 14.6394 7.51676 14.4287 6.98633 14.4287H3.98633V19.4287Z" stroke="#A3CBC9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                     </span>
+                     Support
+                  </a>
+                  <div class="logout-btn-div">
+                     <button type="button" class="logout" data-toggle="modal" data-target="#logout-popup">
+                        <!-- <i class="fas fa-sign-out-alt" title="Logout"></i> -->
+                        <i class="fas fa-power-off"></i>
+                        Logout   
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Page content wrapper-->
+         <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-default-bar clearfix">
+               <div class="right-menu-top-bar-relative">
+                  <div class="right-menu-top-bar">
+                     <div class="hamburger-pnl"> 
+                        <button class="btn togglebutton" id="sidebarToggle">
+                        <i class="fas fa-bars"></i>
+                        </button>
+                     </div>
+                     <div class="tab-visible-logo"> 
+                        <a href="#">
+                        <img src="img/GreenLogo.svg" alt="">
+                        </a>
+                     </div>
+                     <div class="profile-bar-sec">
+                        <div class="profile-details">
+                           <div class="prfl-mail">
+                              <h3 class="prfl-name"> Maksymilian Siienkiewicz </h3>
+                              <p class="mailid">maksymilia@Siienkie.com </p>
+                           </div>
+                        </div>
+                        <div class="notification-bar">
+                           <div class="circle-bar" data-toggle="modal" data-target="#notification-popup"> 
+                              <i class="far fa-bell"></i>
+                              <span class="status-dot"> 
+                              <span class="success-dot"> </span>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+            <!-- Page content-->
+            <!-- right section common pannel -->
+            <div class="container-fluid">
+               <div class="body-pnl-menu-bar-left">
+                  <div class="cmn-right-side-div-bar">
+                     <div class="inner-cmn-right-side-div-bar">
+                        <!-- Breacrumb Part-->
+                        <div class="top-menu-breadcrumb-backpage-heading-common clearfix">
+                           <div class="breadcrumb-common-internal">
+   
+                              <h2 class="home-heading-cart terms-of-use-text"> Terms of Use  </h2>
+                           </div>
+                         
+                        </div>
+                        <!-- END Breadcrumb-->
+
+
+                   
+                        <div class="terms-of-use-common"> 
+                           <div class="terms-of-use-common-inner"> 
+                                 <div class="separate-heading-and-dtls-field"> 
+                                    <h2> Semper auctor neque vitae tempus quam pellentesque nec</h2>
+                                  <p>  pLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Arcu non odio euismod lacinia at quis risus sed vulputate. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Fringilla ut morbi tincidunt augue. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Volutpat commodo sed egestas egestas fringilla. </p>
+                                 </div>
+
+                                 <div class="separate-heading-and-dtls-field"> 
+                                    <h2> Semper auctor neque vitae tempus quam pellentesque nec</h2>
+                                  <p>  pLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Arcu non odio euismod lacinia at quis risus sed vulputate. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Fringilla ut morbi tincidunt augue. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Volutpat commodo sed egestas egestas fringilla. </p>
+                                 </div>
+
+                                 <div class="separate-heading-and-dtls-field"> 
+                                    <h2> Semper auctor neque vitae tempus quam pellentesque nec</h2>
+                                  <p>  pLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Arcu non odio euismod lacinia at quis risus sed vulputate. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Fringilla ut morbi tincidunt augue. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Volutpat commodo sed egestas egestas fringilla. </p>
+                                 </div>
+
+                                 <div class="separate-heading-and-dtls-field"> 
+                                    <h2> Semper auctor neque vitae tempus quam pellentesque nec</h2>
+                                  <p>  pLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Arcu non odio euismod lacinia at quis risus sed vulputate. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Fringilla ut morbi tincidunt augue. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Volutpat commodo sed egestas egestas fringilla. </p>
+                                 </div>
+
+                                 <div class="separate-heading-and-dtls-field"> 
+                                    <h2> Semper auctor neque vitae tempus quam pellentesque nec</h2>
+                                  <p>  pLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Arcu non odio euismod lacinia at quis risus sed vulputate. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Fringilla ut morbi tincidunt augue. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Volutpat commodo sed egestas egestas fringilla. </p>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end -->
+         </div>
+      </div>
+      <!-- end -->
+
+    <!-- cmn footer -->
+    <div class="cmn-footer-section"> 
+      <footer>
+             <p class="black-text">Copyright © 2021 All Rights Reserved.</p>
+            <button type="button" class="retry-btn"> Retry  </button>
+       </footer>
+   </div>
+   <!-- end -->
+
+      <!-- logout popup common for all the page -->
+      <div class="modal-popup-cmn"> 
+      <div class="cmn-modal-parent">
+         <div class="modal-dialog cmn-modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content cmn-modal-content ">
+               <div class="modal-body cmn-modal-body">
+                  <h2> Logout </h2>
+                  <p> Are you sure you want to log out?  </p>          
+               </div>
+               <div class="modal-footer cmn-modal-footer">
+                  <button type="button" class="btn btn-default close-modal-btn"  id="">No</button>
+                  <button type="button" class="btn btn-default action-modal-btn" id=""> Yes</button>
+               </div>
+            </div>
+         </div>
+      </div>
+     </div>
+     <!-- end -->
+
+   <!-- this is common modal backdrop needs to be used in every pooup   -->
+      <div class="mddal-backdrop-opacity"> </div>
+    <!-- end -->
+
+       <!-- Notification popup common for all the page -->
+       <div class="modal fade cmn-modal-parent" id="notification-popup" tabindex="-1" role="dialog" aria-labelledby="notification-popup" aria-hidden="true">
+         <div class="modal-dialog cmn-modal-dialog cmn-modal-dialog3">
+            <!-- Modal content-->
+            <div class="modal-content cmn-modal-content cmn-modal-content3">
+               <div class="modal-body cmn-modal-body cmn-modal-body2">
+                  <div class="notification-header">
+                     <div class="notification-header-inner clearfix">
+                        <!-- Checked switch -->
+                        <div class="inline-switches email-notification-switches">
+                           <div class="form-check form-switch clearfix">
+                              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked"  />
+                              <label class="form-check-label" for="flexSwitchCheckChecked">
+                              Email Notifications
+                              </label>
+                           </div>
+                        </div>
+                        <div class="inline-switches">
+                           <div class="form-check form-switch clearfix">
+                              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked"  />
+                              <label class="form-check-label" for="flexSwitchCheckChecked">
+                              Push Notifications
+                              </label>
+                           </div>
+                        </div>
+                        <div class="markall-read"> 
+                           <span> Mark All as Read</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fascility-form-parent">
+                     <div class="fascility-form-parent-inner">
+                        <h2>Today </h2>
+                        <div class="separate-fascilty-notification">
+                           <!-- Left-aligned media object -->
+                           <div class="row">
+                              <div class="col-sm-9">
+                                 <div class="media cmn-fascility-field-notify">
+                                    <div class="media-left">
+                                       <img src="img/unread icon.svg" class="media-object">
+                                    </div>
+                                    <div class="media-body">
+                                       <h4 class="media-heading">Facility ABC1 Overdue Inspection</h4>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="inspection-view">
+                                    <p class="grey-text"> 24 july 2021 at 9:30AM</p>
+                                    <a href="#" class="view-inspection"> View Inspection </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="horizontal-line">
+                           <!-- end -->
+                        </div>
+                        <div class="separate-fascilty-notification">
+                           <!-- Left-aligned media object -->
+                           <div class="row">
+                              <div class="col-sm-9">
+                                 <div class="media cmn-fascility-field-notify">
+                                    <div class="media-left">
+                                       <img src="img/unread icon.svg" class="media-object">
+                                    </div>
+                                    <div class="media-body">
+                                       <h4 class="media-heading">Facility ABC1 Overdue Inspection</h4>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="inspection-view">
+                                    <p class="grey-text"> 24 july 2021 at 9:30AM</p>
+                                    <a href="#" class="view-inspection"> View Inspection </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="horizontal-line">
+                           <!-- end -->
+                        </div>
+                        <h2>Yesterday </h2>
+                        <div class="separate-fascilty-notification">
+                           <!-- Left-aligned media object -->
+                           <div class="row">
+                              <div class="col-sm-9">
+                                 <div class="media cmn-fascility-field-notify">
+                                    <div class="media-left">
+                                       <img src="img/unread icon.svg" class="media-object">
+                                    </div>
+                                    <div class="media-body">
+                                       <h4 class="media-heading">Facility ABC1 Overdue Inspection</h4>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="inspection-view">
+                                    <p class="grey-text"> 24 july 2021 at 9:30AM</p>
+                                    <a href="#" class="view-inspection"> View Inspection </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="horizontal-line">
+                           <!-- end -->
+                        </div>
+                        <div class="separate-fascilty-notification">
+                           <!-- Left-aligned media object -->
+                           <div class="row">
+                              <div class="col-sm-9">
+                                 <div class="media cmn-fascility-field-notify">
+                                    <div class="media-left">
+                                       <img src="img/unread icon.svg" class="media-object">
+                                    </div>
+                                    <div class="media-body">
+                                       <h4 class="media-heading">Facility ABC1 Overdue Inspection</h4>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="inspection-view">
+                                    <p class="grey-text"> 24 july 2021 at 9:30AM</p>
+                                    <a href="#" class="view-inspection"> View Inspection </a>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="horizontal-line">
+                           <!-- end -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end -->
+
+      <!-- end -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
